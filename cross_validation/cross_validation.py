@@ -1,6 +1,6 @@
 clf_list = [('Gaussian Naive Bayes', GaussianNB()),
             ('Logistic Regression', LogisticRegression(random_state=random_state))]
-
+#this is comment
 cv_base_mean, cv_std = [], []
 for clf in clf_list:
 
